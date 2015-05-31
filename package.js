@@ -1,6 +1,6 @@
 Package.describe({
   name: 'flowkey:callback-list',
-  version: '1.1.0',
+  version: '1.1.1',
   // Brief, one-line summary of the package.
   summary: 'Small Helper to create Callback Lists and operate on them',
   // URL to the Git repository containing the source code for this package.

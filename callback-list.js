@@ -6,7 +6,7 @@ CallbackList.prototype.add = function(fct) {
   this._callbacks.push(fct);
 };
 
-CallbackList.prototype.run = function(context, param) {
+CallbackList.prototype.run = function(param, context) {
   var cbs = this._callbacks;
   for (var i = 0, N = (cbs && cbs.length); i < N; i++)
     cbs[i].call(context, param);
